@@ -1,0 +1,97 @@
+
+* {
+    margin: 8px;
+    padding: 0x;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+:root {
+    --darkleef: rgba(69,77,150,93%);
+    --bleu: rgba(95,154,172,88%);
+    --coco: rgba(75,46,34,88%);
+}
+
+
+
+body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: var(--bleu);
+}
+.title{
+    width: 100%;
+    font-size: 35px;
+    color: var(--coco)
+}
+header {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    border: solid 8px;
+    width: 100%;
+    text-align: center;
+    background-color: var(--darkleef);
+}
+header h1 {
+    text-align: center;
+}
+header img {
+    border: solid 8px;
+    border-color: var(--coco);
+}
+.bio {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: solid 8px;
+    background-color: var(--coco);
+
+}
+.bio p{
+    width: 100%;
+}
+
+table {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: solid 8px;
+    width: 100%;
+    background-color: var(--darkleef);
+}
+
+
+.video {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: solid 8px;
+    background-color: var(--bleu);
+}
+
+.video iframe 
+{
+    border: solid 8px;
+    border-color: var(--coco);
+}
+
+footer {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: solid 8px;
+    background-color: var(--darkleef);
+    margin: 10 10;
+}
+footer div p {
+    color: var(--bleu);
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}  
